@@ -5,14 +5,12 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import sg.edu.iss.domain.Fibonacci;
 import sg.edu.iss.domain.Response;
 
-@CrossOrigin(origins = "http://localhost:3000/")
 @RestController
 public class FibonacciController {
 	
